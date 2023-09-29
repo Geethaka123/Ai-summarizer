@@ -1,30 +1,24 @@
-import { logo} from '../assets'
+import { logo } from "../assets";
 
 const Hero = () => {
   return (
-    <header className="w-full flex justify-center 
-    items-center flex-col">
-      <nav className="flex justify-between items-center
-       w-full mb-10 pt-3">
-        <img src={logo} alt="Sumz_logo" className='w-28 object-contain' />
-
-        <button type='button' onClick={() =>
-        window.open('https://githhub.com')} className='black_btn'>
-          Github
-        </button>
-       </nav>
-       <h1 className='head_text'>
-        Summarize Articles with <br className='max-md:hidden' />
-        <span className='orange_gradient'>OpenAi GPT-4</span>
-       </h1>
-       <h2 className='desc'>
-        Simplify your reading with Summrize, an
-        open-source article summarizer 
-        that transfroms lengthy articles into clear 
-        and consice summaries
-       </h2>
+    <header
+      className="w-full flex justify-center 
+    items-center flex-col pt-10"
+    >
+      <h1 className="head_text">
+        <h1 className="header_text ">
+          Article Summarizer with
+        </h1>
+        <br className="max-md:hidden" />
+        <span className="blue_gradient">Rapid API</span>
+      </h1>
+      <h2 className="desc">
+        Make your reading easier with Summrize, an open-source tool that turns
+        long articles into short summaries.
+      </h2>
     </header>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
