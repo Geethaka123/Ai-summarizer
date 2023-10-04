@@ -10,7 +10,6 @@
 ## Table of Contents
 
 - [About](#about)
-- [Demo](#demo)
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
