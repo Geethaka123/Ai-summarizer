@@ -1,6 +1,7 @@
 # AI Summarizer Application (React)
 
-![Project Image](project_image_url_here)
+![Project Image](images/Screenshot%202023-10-04%20175548.png)
+![Project Image](images/Screenshot%202023-10-04%20175738.png)
 
 > An AI-powered summarizer application built with React and powered by Rapid API.
 
